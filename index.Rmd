@@ -14,5 +14,14 @@ knit: (
     encoding    = encoding,
     output_file = file.path(dirname(input_file), out_dir, 'index.html') ) })
 ---
+# Research Interests
 
-[Haakon's Website](https://www.haakongjerlow.com)
+My research focuses on political institutions, domestic politics, mass-mobilization, and human development. I also have an interest in data collection and discovering new empirical evidence to test existing theories in comparative politics and political economy.
+
+I am always interested in cooperation with practitioners of development programmes and humanitarian aid. Please do not hesitate to contact me if you would like to explore options for combining practice with science.
+
+
+[Personal Website](https://www.haakongjerlow.com)
+
+[PRIO website](https://www.prio.org/people/11472)
+
