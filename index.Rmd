@@ -1,7 +1,5 @@
 ---
 title: "Haakon Gjerløw's GitHub"
-author: "Haakon Gjerløw"
-date: '2022-06-21'
 knit: (function(input_file, encoding) {
     out_dir <- 'docs';
     rmarkdown::render(input_file,
@@ -15,4 +13,4 @@ output:
   
 ---
 
-# Welcome
+[Haakons Website](www.haakongjerlow.com)
