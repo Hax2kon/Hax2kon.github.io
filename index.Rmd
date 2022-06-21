@@ -15,4 +15,4 @@ knit: (
     output_file = file.path(dirname(input_file), out_dir, 'index.html') ) })
 ---
 
-[Haakon's Website](www.haakongjerlow.com)
+[Haakon's Website](https://www.haakongjerlow.com)
