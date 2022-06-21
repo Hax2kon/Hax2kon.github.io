@@ -2,7 +2,17 @@
 title: "Haakon Gjerløw's GitHub"
 author: "Haakon Gjerløw"
 date: '2022-06-21'
-output: html_document
+knit: (function(input_file, encoding) {
+    out_dir <- 'docs';
+    rmarkdown::render(input_file,
+      encoding=encoding,
+      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+output:
+  html_document:
+    numbered_sections: yes
+    toc: yes
+    toc_float: yes
+  
 ---
 
 # Welcome
