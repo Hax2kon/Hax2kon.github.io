@@ -1,18 +1,18 @@
 ---
 title: "Haakon Gjerløw's GitHub"
-knit: (function(input_file, encoding) {
-    out_dir <- '/docs';
-    rmarkdown::render(input_file,
-      encoding=encoding,
-      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 output:
   html_document:
     numbered_sections: yes
     toc: yes
     toc_float: yes
-  
+knit: ( 
+  function(input_file, encoding) {
+    out_dir <- 'docs';
+    
+    rmarkdown::render(
+    input       = input_file,
+    encoding    = encoding,
+    output_file = file.path(dirname(input_file), out_dir, 'index.html') ) })
 ---
 
-[Haakons Website](www.haakongjerlow.com)
-
-This is in the root folder
+[Haakon's Website](www.haakongjerlow.com)
