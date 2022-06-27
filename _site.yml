@@ -1,0 +1,11 @@
+name: "Hax2kon"
+output_dir: "docs"
+output:  
+  html_document:  
+    self_contained: no
+    css: style.css
+# navbar:
+#   title: " "
+#   left:
+#     - text: "Haakon Gjerløw"
+#       href: index.html
