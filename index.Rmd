@@ -3,7 +3,7 @@ title: ""
 output:
   html_document:
     includes:
-      in_header: hero-image.html
+      in_header: hero-image.rhtml
     numbered_sections: yes
     # toc: yes
     # toc_float: yes

@@ -4,6 +4,7 @@ output:
   html_document:  
     self_contained: no
     css: style.css
+exclude: ["hero-image_files", "LICENSE*"]
 # navbar:
 #   title: " "
 #   left:
