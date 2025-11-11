@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Haakon Gjerløw</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="www/lux_edit.css">
+  <link rel="stylesheet" href="www/custom_changes.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+.vl {
+  border-left: 1px solid #E5E5E5;
+  height: 100px;
+  position: absolute;
+  left: 100%;
+  margin-left: 0px;
+  top: 0;
+}
+
+</style>
+
+
+  <!-- START navbar -->
+    <div class="navbar navbar-expand-md fixed-top navbar-light">
+      <a href="index.html" class="navbar-brand d-none d-md-block">
+        <img id="logo" src="www/logo2_black.png" alt="Logo"></a>
+        <button class="navbar-toggler collapsed mr-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navbar-dark"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html"><h4 style="color:black">Publications</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="media.html"><h4 style="color:black">Data</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html"><h4 style="color:black">Projects</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wps.html"><h4 style="color:black">Working papers</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="media.html"><h4 style="color:black">In the news</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:haakon.gjerlow@gmail.com?Subject=Hello" target="_top"><h4 style="color:black">Contact</h4></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+  <!-- END navbar -->
+
+
+
+
+<div style="background:#535c63 !important" class="jumbotron">
+  <div class="container text-center" style="color:#eeefe9">
+    <br><br>
+    <h1>Datasets</h1>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row row-eq-height">
+    <div class="col-md-12 text-primary">
+      <h1><u>Data</h1></u>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  
+  <div class="row row-eq-height">
+
+    <!-- Left column -->
+    <div class="col-md-12">
+
+
+      <button type="button" class="collapsible">
+        <h3>
+        <p>The Opposition Movement and Groups (OMG) Dataset</p>
+        </h3>
+        </button>
+        <div class="content text-justify">
+        <p><a href="https://www.prio.org/data/39">The OMG Data</a></p>
+        <p><a href="https://github.com/Hax2kon/OMGData">Issue-tracker</a></p>
+        <p><a href="https://doi.org/10.1177/00104140251369330">Data paper</a></p>
+        </h4>
+        </div>
+
+       <!-- Horizontal line under -->
+        <br>
+        <hr>
+        <br>
+        
+        </hr>
+      </p>
+  </div>
+
+</div>
+
+<!--
+<div class="container">
+  <div class="row row-eq-height">
+    <div class="col-md-12">
+      <br>
+      <br>
+      <h1>Policy briefs</h1>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+-->
+
+
+
+</div>
+
+<script> 
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
+
+
+
+
