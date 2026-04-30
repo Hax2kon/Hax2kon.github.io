@@ -68,11 +68,3 @@ But reference something concrete: a paper, a point he made, a decision he took.
 Vague flattery ("You are such an expert in this field") lands poorly.
 Specific recognition ("I read your piece on mass mobilization in CPS — those data
 are a great service to the field!") lands well.
-
----
-
-## Length
-
-Match length to content. A short question deserves a short email.
-A complex request can be longer, but only if the length carries information.
-Never pad.
