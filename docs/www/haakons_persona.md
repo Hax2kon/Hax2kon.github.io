@@ -1,7 +1,7 @@
 # Emailing Haakon Gjerløw — preferences for AI-assisted drafting
 
 Use this file to help an AI tailor an email to Haakon Gjerløw
-(Senior Researcher and Deputy Director, PRIO — haagje@prio.org).
+(Acting Director, PRIO — haagje@prio.org).
 
 ---
 
@@ -18,9 +18,9 @@ summary?" beats "some materials".
 (a piece of information + a request, or several questions), label them or
 separate them clearly. Don't bury a request in a paragraph.
 
-**Avoid:** "I hope this email finds you well", "reaching out", "circle back",
-"touch base", "deliverable" (as a noun), "synergies", "robust", "leverage"
-(non-technical), "furthermore", "moreover", "transformative", "pivotal".
+**Avoid:** "synergies", "robust", "leverage" (non-technical), "furthermore", "moreover", "transformative", "pivotal".
+
+**Realistic timelines.** Haakon is unlikely to be able to approve, read up, or even respond within 24-hours notice. Plan requests responsibly.
 
 ---
 
